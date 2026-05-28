@@ -1,0 +1,9 @@
+username,email,password,expected,description
+qa_budi,budi1@test.com,Password!123,PASS,Register valid
+qa_budi,budi2@test.com,Password!123,FAIL,Username sudah dipakai
+user_baru,invalid_email,Password!123,FAIL,Email tidak valid
+user_baru,budi3@test.com,123,FAIL,Password terlalu pendek
+,budi4@test.com,Password!123,FAIL,Username kosong
+user_baru,,Password!123,FAIL,Email kosong
+user_baru,budi5@test.com,,FAIL,Password kosong
+qa_budi_6,budi6@test.com,pwd,FAIL,Password tanpa angka dan huruf besar
