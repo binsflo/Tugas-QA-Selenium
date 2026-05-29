@@ -1,0 +1,4 @@
+tc_id,username,password,expected
+TC-EC-001,standard_user,secret_sauce,PASS
+TC-EC-002,locked_out_user,secret_sauce,FAIL
+TC-EC-003,invalid_user,wrong_password,FAIL
